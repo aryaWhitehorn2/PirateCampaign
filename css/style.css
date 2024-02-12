@@ -1,0 +1,373 @@
+nav{
+    padding: 10px;
+    font-size: 1.5em;
+    text-align: center; 
+    width: auto;
+    
+}
+nav a:link{
+    color: #ffffff;
+    text-decoration: none;
+}
+nav a:visited{
+    color: #ffffff;
+}
+nav a:hover{
+    color: #CCCCCC;
+}
+nav li{
+    display: inline-block;
+    padding-right: 30px;
+    position: relative;
+}
+nav ul{
+    padding: 5px;
+    list-style-type: none;
+}
+nav a{
+    display:block;
+    text-decoration: none;
+}
+nav ul li ul{
+    position: absolute;
+    display: none;
+    text-align: center;
+    padding: 10px;
+}
+nav ul li:hover ul{
+    display: block;
+}
+#OneShots, #tools, #info, #characters{
+    color: #fff;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+}
+#one{
+    background-image: url("../images/background2.jpg");
+}
+#two{
+    background-image: url("../images/nightship.jpg");
+    min-height: 600px;
+}
+#three{
+    background-image: url("../images/map.jpg");
+    min-height: 600px;
+}
+#four{
+    background-image: url("../images/jungle4.jpg");
+}
+#five{
+    background-image: url("../images/goldenShip.jpg");
+    min-height: 300px;
+}
+#six{
+    background-image: url("../images/colorfulmap2.jpg");
+    min-height: 300px;
+}
+#welcome{
+    height: 150px;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    background-image: url(../images/greyblue.jpg);
+    background-size: cover;
+    color: #fff;
+}
+#npc{
+    height: fit-content;
+    background-image: url(../images/greyblue.jpg);
+}
+#hune{
+    height: 768px;
+    width: 1024px;
+    background-size: contain;
+    background-image: url(../images/Local.jpg);
+}
+#kala{
+    background-image: url(../images/KalaMap4.jpg);
+    background-size: contain;
+    height:700px;
+    background-repeat: no-repeat;
+}
+#town{
+    background-image: url(../images/Town.png);
+    background-size: contain;
+    height:700px;
+    background-repeat: no-repeat;
+}
+#map{
+    height: 772px;
+    background-color: #233448;
+}
+#map2{
+    height: 740px;
+    
+    background-color: #a89a5c;
+}
+#jungle{
+    background-color: #1f4e54;
+    color: #fff;
+    height: 270px;
+    text-align: center;
+    padding: 20px;
+}
+#races{
+    height: 800px;
+    background-color: #e3c8bd;
+}
+#races2{
+    height: 1000px;
+    background-color: #e3c8bd;
+}
+#history{
+    height: 600px;
+    background-color: #c1b88f;
+}
+footer{
+    text-align: center;
+    font-size: 1em;
+    background-color: #233448;
+    color: white;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#mapnav ul, #mapnav ul li{
+    background-color: #4c656a;
+    padding: 5px;
+    margin: 5px;
+}
+#racesnav ul, #racesnav ul li{
+    background-color: #aa847b;
+    padding: 5px;
+    margin: 5px;
+}
+#jungle a:link{
+    text-decoration: none;
+    color: #fff;
+}
+#jungle a:visited{
+    color: #fff;
+}
+#jungle a:hover{
+    color: #628286;
+}
+#jungle ul{
+    list-style-type: none;
+    padding: 0%;
+}
+#jungle footer{
+    background-color: #1f4e54;
+}
+body, h3{
+    margin: 0;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#npc main table tr td{
+    text-align: center;
+    font-size: large;
+}
+img{
+    padding: 30px;
+}
+
+h2{
+    padding-top: 220px;
+    font-size: larger;
+}
+
+#maptable, #maptbody{
+    padding: 0;
+    margin: 0;
+    background-color: #233448;
+}
+#maptd{
+    padding-top: 0;
+}
+#footermap{
+    background-color: #625834;
+}
+#footerRaces{
+    background-color: #aa847b;
+}
+#footerHist{
+    background-color: #363731;
+}
+#races main h3, #races2 main h3, #history main h3{
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 20px;
+    font-size: xx-large;
+    
+}
+/*#races main p, #races2 main p, #history main p{
+    
+}*/
+#head{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 0em;
+    padding: 20px;
+    width: 50%;
+}
+#races main table, #history main table, #races2 main table{
+    padding-top: 0%;
+    padding-bottom: 0%;
+    width: 100%;
+}
+h5{
+    font-weight: bold;
+    font-size: large;
+    padding-left: 20px;
+    
+}
+#races main table tr td, #races2 main table tr td, #history main table tr td{
+    width: 50%;
+    
+
+}
+#races main table tr td p, #races2 main table tr td p, #history main table tr td p{
+    padding-left: 20px;
+
+}
+h1{
+    color: #fff;
+    margin: 0em;
+    padding: 20px;
+
+    background-color: #625834;
+    text-align: center;
+}
+.indent{
+    text-indent: 50px;
+}
+#tbd{
+    text-align: center;
+    margin-top: 50px;
+    font-size: larger;
+}
+#tbd2 nav, #tbd2 nav ul{ 
+    background-color: black;
+}
+
+
+
+
+
+.flip-box {
+    background-color: transparent;
+    width: 400px;
+    height: 550px;
+    
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    padding: 10px;
+}
+  
+  /* This container is needed to position the front and back side */
+.flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+}
+
+  
+  /* Position the front and back side */
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side */
+  .flip-box-front {
+    background-color: #c4e3f5;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-box-back {
+    background-color:#5d778d;
+    
+    transform: rotateY(180deg);
+}
+
+.flip-box2 {
+    background-color: transparent;
+    width: 228px;
+    height: 189px;
+    
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    padding: 0.5px;
+}
+  
+  /* This container is needed to position the front and back side */
+.flip-box-inner2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box2:hover .flip-box-inner2 {
+    transform: rotateY(180deg);
+}
+
+  
+  /* Position the front and back side */
+  .flip-box-front2, .flip-box-back2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side */
+  .flip-box-front2 {
+    background-color: #4c656a;
+    color: black;
+    font-size: larger;
+    border: #233448;
+  }
+  
+  /* Style the back side */
+  .flip-box-back2 {
+    background-color: #809598;
+    border: #233448;
+    padding-top: 10px;
+    transform: rotateY(180deg);
+}
