@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PCs</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!--[if 1t IE 9]>
+    <script scr = "http://html5shim.googlecode.com/svn/trunk/html5.js">
+    </script-->
+    <meta name="viewport" content= "width=device-width, intial-scale=1.0">
+</head>
+<body>
+    <div id="wrapper">
+    <!-- <header><h1>Home</h1></header> -->
+    <div id="two" class="parallax">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="map.html">Map</a></li>
+                <li>
+                    <div id="characters">Characters</div>
+                    <ul>
+                        <li><a href="npc.html">NPCs</a></li>
+                        <li><a href="pc.html">PCs</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <div id="OneShots">One shots</div>
+                    <ul>
+                        <li><a href="jungletemple.html">Jungle Temple</a></li>
+                        <li><a href="TBD.html">TBD</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <div id="info">Info</div> 
+                    <ul>
+                        <li><a href="history.html">General History</a></li>
+                        <li><a href="races.html">Races of the World</a></li>
+                    </ul>
+                </li>
+            </ul> 
+        </nav>
+    </div>
+    <div id="npc">
+    <main>
+        <table>
+            <thead>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="flip-box">
+                            <div class="flip-box-inner">
+                              <div class="flip-box-front">
+                                <h2>Halikai Azra <br> (Kai)</h2>
+                                
+                              </div>
+                              <div class="flip-box-back">
+                                <img src="images/kai_close.jpg" id = "kai" alt="Elise's Character" height="300px" onmouseover="setNewImage()" onmouseout="setOldImage()">
+                                    <p>
+                                    Race: Triton <br>
+                                    Class: Ranger <br>
+                                    Role: Muscle <br>
+                                    Age: 24<br>
+                                    Gender: Female<br>
+                                    Damage:
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="flip-box">
+                            <div class="flip-box-inner">
+                              <div class="flip-box-front">
+                                <h2>Mallard DiMaggio Gull</h2>
+                              </div>
+                              <div class="flip-box-back">
+                                <img src="images/mallard2.jpg" alt="" height="300px">
+                                <p>
+                                    Race: Human Variant <br>
+                                    Class: Cleric <br>
+                                    Role: Lookout <br>
+                                    Age: 17 <br>
+                                    Gender: Male<br>
+                                    Damage:   ,
+                                    Healing:
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                    </td>
+                    <td>
+                        <div class="flip-box">
+                            <div class="flip-box-inner">
+                              <div class="flip-box-front">
+                                <h2>Nin Eglahir</h2>
+                              </div>
+                              <div class="flip-box-back">
+                                <img src="images/sage.jpg" id="nin" height="300px" onmouseover="setNewImage2()" onmouseout="setOldImage2()">
+                                <p>
+                                    Race: Water Genasi <br>
+                                    Class: Driad<br>
+                                    Role: Cook <br>
+                                    Age: 20<br>
+                                    Gender: Female<br>
+                                    Damage:
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="flip-box">
+                            <div class="flip-box-inner">
+                              <div class="flip-box-front">
+                                <h2>Stork Bay Gull <br>
+                                (Big Guy)</h2>
+                              </div>
+                              <div class="flip-box-back">
+                                <img src="images/Stork2edit2.jpg" alt="" height="300px">
+                                <p>
+                                    Race: Human Variant<br>
+                                    Class: Paladin<br>
+                                    Role: Muscle <br>
+                                    Age: 17 <br>
+                                    Gender: Male<br>
+                                    Damage:   ,
+                                    Healing:
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="flip-box">
+                            <div class="flip-box-inner">
+                              <div class="flip-box-front">
+                                <h2>Chance</h2>
+                              </div>
+                              <div class="flip-box-back">
+                                <img src="images/" alt="" height="300px">
+                                <p>
+                                    Race: <br>
+                                    Class: Wild Magic Sorcerer<br>
+                                    Role: <br>
+                                    Gender: Male<br>
+                                    Age: 30s<br>
+                                    Damage:
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        
+
+    </main>
+    </div>
+    <footer>
+        <script> 
+            var date = document.lastModified;
+            document.write("This page was last modified on: date " + date);
+            
+            function setNewImage() {
+                document.getElementById("kai").src = "images/kai_far.jpg";
+            }
+            function setOldImage(){
+                document.getElementById("kai").src = "images/kai_close.jpg";
+            }
+            function setNewImage2() {
+                document.getElementById("nin").src = "images/sage.jpg";
+            }
+            function setOldImage2(){
+                document.getElementById("nin").src = "images/nin2.jpg";
+            }
+        </script>
+    </footer>
+    </div>
+</body>
+
+
+</html>
